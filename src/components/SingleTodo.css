@@ -1,0 +1,45 @@
+.todos-single {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  transition: 0.2s;
+}
+
+.todos-single:hover {
+  box-shadow: 0 0 5px black;
+  transform: scale(1.03);
+}
+
+.todos-single-text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.todos-single-text:focus {
+  outline: none;
+}
+
+.edit-single-todo {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.edit-single-todo:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.drag-todo {
+  box-shadow: 0 0 15px black;
+}

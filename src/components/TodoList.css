@@ -1,0 +1,48 @@
+.container {
+  width: 95%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.todos {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 47.5%;
+  padding: 15px;
+  background-color: rgb(50, 195, 205);
+}
+.todos-header {
+  font-size: 30px;
+  color: white;
+}
+
+.remove {
+  background-color: rgb(235, 103, 80);
+}
+
+.dragactive {
+  background-color: rgb(0, 221, 236);
+}
+.dragcomplete {
+  background-color: rgb(225, 38, 0);
+}
+
+@media (max-width: 1100px) {
+  .todos {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .todos {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 95%;
+    flex-direction: column;
+  }
+}
